@@ -3,7 +3,7 @@
 import readlineSync from "readline-sync";
 
 const getDayName = (num: number): string => {
-    let day;
+    let day: string;
 
     switch (num) {
         case 1:
