@@ -1,3 +1,5 @@
+// Accept a char input from the user and display it on the console.
+
 import readlineSync from "readline-sync";
 
 const displayCharInput = (): string => {

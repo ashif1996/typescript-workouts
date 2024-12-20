@@ -1,3 +1,5 @@
+// Accept two inputs from the user and output their sum.
+
 import readlineSync from "readline-sync";
 
 const displaySum = (): number => {
