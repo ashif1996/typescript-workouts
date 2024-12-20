@@ -1,4 +1,7 @@
 "use strict";
+// Write a program to find the simple interest.
+// Program should accept 3 inputs from the user and calculate simple interest for the given inputs.
+// Formula: SI=(P*R*n)/100)
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };

@@ -1,4 +1,5 @@
 "use strict";
+// Accept a char input from the user and display it on the console.
 var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
