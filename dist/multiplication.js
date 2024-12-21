@@ -7,11 +7,11 @@ Object.defineProperty(exports, "__esModule", { value: true });
 var readline_sync_1 = __importDefault(require("readline-sync"));
 var printMultiplicationTable = function () {
     var num = parseFloat(readline_sync_1.default.question("\n" + "Enter a number: "));
-    console.log("\n");
+    console.log();
     for (var i = 1; i <= 10; i++) {
         var multiplication = i * num;
         console.log("".concat(i, " x ").concat(num, " = ").concat(multiplication));
     }
-    console.log("\n");
+    console.log();
 };
 printMultiplicationTable();
