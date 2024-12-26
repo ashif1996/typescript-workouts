@@ -49,26 +49,26 @@ var main = function () {
         switch (choice) {
             case 1: {
                 var _a = getNumbers(), num1 = _a.num1, num2 = _a.num2;
-                var result = calculator.addition(num1, num2);
-                console.log("\n" + "Result:", result);
+                var result_1 = calculator.addition(num1, num2);
+                console.log("\n" + "Result:", result_1);
                 break;
             }
             case 2: {
                 var _b = getNumbers(), num1 = _b.num1, num2 = _b.num2;
-                var result = calculator.subtraction(num1, num2);
-                console.log("\n" + "Result:", result);
+                var result_2 = calculator.subtraction(num1, num2);
+                console.log("\n" + "Result:", result_2);
                 break;
             }
             case 3: {
                 var _c = getNumbers(), num1 = _c.num1, num2 = _c.num2;
-                var result = calculator.multiplication(num1, num2);
-                console.log("\n" + "Result:", result);
+                var result_3 = calculator.multiplication(num1, num2);
+                console.log("\n" + "Result:", result_3);
                 break;
             }
             case 4: {
                 var _d = getNumbers(), num1 = _d.num1, num2 = _d.num2;
-                var result = calculator.division(num1, num2);
-                console.log("\n" + "Result:", result);
+                var result_4 = calculator.division(num1, num2);
+                console.log("\n" + "Result:", result_4);
                 break;
             }
             case 5:

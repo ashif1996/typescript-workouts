@@ -1,4 +1,4 @@
-// Write a myFilter function that takes 2 parameters: myArray and callback. Here, myArray is an array of numbers and callback is a function that takes the elements of myArray as its parameter and returns a boolean true if the sum of the number is even or   false if the sum of the number  is odd.
+// Write a myFilter function that takes 2 parameters: myArray and callback. Here, myArray is an array of numbers and callback is a function that takes the elements of myArray as its parameter and returns a boolean true if the sum of the number is even or false if the sum of the number  is odd.
 
 const calculateSumAndSendBooleanResponse = (array: number[]): boolean => {
     const sum: number = array.reduce((accumulator, current) => accumulator + current, 0);
