@@ -9,7 +9,7 @@ Object.defineProperty(exports, "__esModule", { value: true });
 // TinyHeightError - When my_heightis less than
 var readline_sync_1 = __importDefault(require("readline-sync"));
 var displayHeightAndError = function () {
-    var input = readline_sync_1.default.question("\nEnter your height: ");
+    var input = readline_sync_1.default.question("\n" + "Enter your height: ");
     var height = Number(input);
     try {
         if (isNaN(height)) {
